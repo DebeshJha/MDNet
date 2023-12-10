@@ -1,17 +1,16 @@
-# Multi Decoder Network for Polyp segmentation 
+# MDNet: Multi Decoder Network for Polyp Segmentation in Colonoscopy
 
 ## Overview
-PVTFormer is a groundbreaking encoder-decoder framework designed for precise liver segmentation from CT scans. At its core, it utilizes the Pyramid Vision Transformer (PVT v2) as a pretrained encoder, enhancing the segmentation process with its unique ability to handle variable-resolution input images and produce multi-scale representations.
+MDNet is a cutting-edge deep-learning architecture designed for efficient and accurate polyp segmentation in colonoscopy images. It utilizes a novel encoder-decoder structure, leveraging the power of a pre-trained ResNet50 as its backbone. The architecture is tailored to process high-resolution medical images in real-time, ensuring both speed and precision in identifying polyps.
 
-## Key Features
--**Innovative Encoder-Decoder Framework:** Incorporates PVT v2 for efficient and rich feature extraction.
+## Key Features:
 
--**Hierarchical Decoding Strategy:** Enhances semantic features for high-quality segmentation masks.
-
--**Efficient Feature Processing:** Combines residual learning with Transformer mechanisms for optimal feature representation.
-
--**High Performance Metrics:** Achieves impressive dice coefficients and mean IoUs, outperforming state-of-the-art methods.
-
+- **Multi-Decoder Learning:** MDNet features multiple decoders, each linked to different stages of the encoder, enhancing the detail and accuracy of the segmentation.
+- **High Performance:** The architecture achieves approximately 85% dice coefficient, indicating a high level of precision in polyp detection.
+- **Real-Time Processing:** Capable of processing at 64 frames per second, MDNet is optimized for real-time applications in medical diagnostics.
+- **Robust Testing:** The architecture has been thoroughly tested on four publicly available polyp datasets, showing its robustness and superiority over baseline models.
+- **Interpretability through Visualization:** MDNet provides visual insights into its decision-making process, aiding medical professionals in understanding and trusting its outputs.
+- **State-of-the-Art Results:** The system demonstrates exceptional performance, setting new benchmarks in the field of medical image analysis.
 
 
 
@@ -27,18 +26,14 @@ PVTFormer is a groundbreaking encoder-decoder framework designed for precise liv
 - Ability to capture long-range spatial dependencies.
 
   
-## Applications
-PVTFormer is highly effective for healthy liver segmentation, with potential applications in other medical imaging areas. It represents a significant advancement in medical image segmentation, offering a robust solution for accurate diagnosis and treatment planning.
-
-
-## Uses of PVTFormer:
+## Uses of MDNet:
 - Medical Image Segmentation 
 - General Image Segmentation
 - Anomaly Detection in Medical Images 
 - Comparative Studies
 
 ## Dataset 
-LiTS dataset
+Kvasir dataset(https://datasets.simula.no/kvasir-seg/)
 
 
 ## Results
@@ -52,7 +47,7 @@ Please cite our paper if you find the work useful:
 <pre>
 @INPROCEEDINGS{8959021,
   author={D. {Jha},  K. {Biswas}, N. {Tomar}, U. {Bagci}},
-  title={Multi Decoder Network for Polyp Segmentation}, 
+  title={MDNet: Multi Decoder Network for Polyp Segmentation in Colonoscopy}, 
   year={2023}
 </pre>
 
