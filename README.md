@@ -1,7 +1,7 @@
 # MDNet: Multi Decoder Network for Polyp Segmentation in Colonoscopy
 
 ## Overview
-MDNet is a cutting-edge deep-learning architecture designed for efficient and accurate polyp segmentation in colonoscopy images. It utilizes a novel encoder-decoder structure, leveraging the power of a pre-trained ResNet50 as its backbone. The architecture is tailored to process high-resolution medical images in real-time, ensuring both speed and precision in identifying polyps.
+**MDNet** is an automatic polyp segmentation method for colorectal polyps, helping endoscopists to standardize colonoscopy examinations and evaluation tasks. It is an encoder-decoder network that uses the pre-trained ResNet50 as the encoder and multiple different decoder networks. Each decoder network is connected to a different part of the encoder via some convolutional layers. With each decoder network, we aim to increase the depth of the network to predict three different segmentation masks. The proposed MDNet effectively refines the segmentation mask with a high dice coefficient approx **$85\%** for most datasets and achieves a real-time processing speed of $\textbf{64}$ frames per second. Extensive experiments on four publicly available polyp datasets demonstrate that our proposed MDNet outperforms all other baseline approaches and is more interpretable and robust compared to the other baseline models. 
 
 ## Key Features:
 
@@ -52,4 +52,4 @@ Please cite our paper if you find the work useful:
 </pre>
 
 ## Contact
-Please contact debesh.jha@northwestern.edu for any further questions.
+Please contact debeshjha1@gmail.com for any further questions.
