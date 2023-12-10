@@ -15,16 +15,11 @@ PVTFormer is a groundbreaking encoder-decoder framework designed for precise liv
 
 
 
-## TransRupNet Architecture 
+## MDNet Architecture 
 <p align="center">
-<img src="Img/PVTFormer1.png">
+<img src="Img/MDNet.jpg">
 </p>
 
-## Up Block and Decoder
-
-<p align="center">
-<img src="Img/PVTFormer_block.jpg">
-</p>
 
 ## Architecture Advantages:
 - Improved accuracy for medical image segmentation.
@@ -49,7 +44,7 @@ LiTS dataset
 ## Results
  **Qualitative results comparison of the SOTA methods** <br/>
 <p align="center">
-<img src="Img/PVTformer_results.png">
+<img src="Img/MDNet_Qualitative.jpg">
 </p>
 
 ## Citation
@@ -57,7 +52,7 @@ Please cite our paper if you find the work useful:
 <pre>
 @INPROCEEDINGS{8959021,
   author={D. {Jha},  K. {Biswas}, N. {Tomar}, U. {Bagci}},
-  title={CT Liver Segmentation Via PVT-based Encoding and Refined Decoding}, 
+  title={Multi Decoder Network for Polyp Segmentation}, 
   year={2023}
 </pre>
 
