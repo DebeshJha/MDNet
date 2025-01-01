@@ -39,8 +39,8 @@ Updated soon.
 </pre>
 
 ## 4. License
-The source code is free for research and education use only. Any comercial use should receive a formal permission from the first author.
+The source code is free for research and education use only. Any commercial use should receive formal permission from the first author.
 
 ## 6. Contact
-Please contact debeshjha1@gmail.com for any further questions.
+Please contact debesh.jha@usd.edu for any further questions.
 
