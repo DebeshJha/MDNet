@@ -8,7 +8,7 @@ Accurate segmentation of organs from abdominal CT scans is essential for clinica
 ## 2. Architecture
 
 ### 2.1 Block diagram
-| ![The block diagram shows an overview of the proposed MDNet](figures/mdnet.jpg) |
+| ![The block diagram shows an overview of the proposed MDNet](Img/mdnet.jpg) |
 | :--: |
 | *The block diagram shows an overview of the proposed MDNet.* |
 
@@ -31,7 +31,7 @@ The proposed architecture uses the PyTorch framework (1.9.0+cu111) with a single
 | *Comparative evaluation of different models on the MSD spleen dataset* |
 
 ### 4.2 Qualitative Results
-<img src="figures/liver-spleen-results-overlay-heatmap-2.jpg">
+<img src="Img/liver-spleen-results-overlay-heatmap-2.jpg">
 
 ## 5. Citation
 <pre>
