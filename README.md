@@ -21,16 +21,11 @@ The proposed architecture uses the PyTorch framework (1.9.0+cu111) with a single
 
 
 ## 4. Results
-### 4.1 Quantitative Results
-| ![Comparative evaluation of different models on the LiTS dataset](figures/lits.png) |
 | :--: |
-| *Comparative evaluation of different models on the LiTS dataset* |
+| *Comparative evaluation of different models on the LiTS dataset and MSD dataset * |
 
-| ![Comparative evaluation of different models on the MSD spleen dataset](figures/spleen.png) |
-| :--: |
 | *Comparative evaluation of different models on the MSD spleen dataset* |
 
-### 4.2 Qualitative Results
 <img src="Img/liver-spleen-results-overlay-heatmap-2.jpg">
 
 ## 5. Citation
