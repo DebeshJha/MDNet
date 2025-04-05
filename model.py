@@ -203,7 +203,7 @@ class mask_attention_block(nn.Module):
 class Model(nn.Module):
     def __init__(self,
             name="B2",
-            checkpoint_path="/media/nikhil/LAB/ML/ME/2023/pretrained/MiT/mit_b2.pth",
+            checkpoint_path="MiT/mit_b2.pth",
             image_size=512,
             num_classes=1
         ):
