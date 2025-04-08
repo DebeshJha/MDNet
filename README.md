@@ -30,7 +30,13 @@ The proposed architecture uses the PyTorch framework (1.9.0+cu111) with a single
 
 ## 5. Citation
 <pre>
-Updated soon.
+@inproceedings{jha2025mdnet,
+  title={MDNet: Multi-Decoder Network for Abdominal CT Organs Segmentation},
+  author={Jha, Debesh and Tomar, Nikhil Kumar and Biswas, Koushik and Durak, Gorkem and Antalek, Matthew and Zhang, Zheyuan and Wang, Bin and Rahman, Md Mostafijur and Pan, Hongyi and Medetalibeyoglu, Alpay and others},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025}
+}
 </pre>
 
 ## 4. License
