@@ -1,4 +1,4 @@
-# MDNET: MULTI-DECODER NETWORK FOR ABDOMINAL CT ORGANS SEGMENTATION
+# MDNet: Multi-Decoder Network for Abdominal CT Organs Segmentation 
 
 ## 1. Abstract
 <div align="justify">
